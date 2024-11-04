@@ -1,0 +1,38 @@
+*,
+**::after,
+***::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1062px;
+    padding: 0;
+}
+.row{
+    width: 900px;
+}
+a{
+    text-decoration: none;
+}
+.header .header__inner{
+    margin-bottom: 50px;
+}
+.header .header__inner .header__menu{
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header .header__inner .header__menu .menu__list {
+    list-style: none;
+    display: flex;
+    align-items: center; 
+}
+.header .header__inner .header__menu .menu__list .menu__list-item-link{
+    color: gray;
+}
+.header .header__inner .header__menu .menu__list .menu__list-item {
+    padding-left: 120px;
+
+}
